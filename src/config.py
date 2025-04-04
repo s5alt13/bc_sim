@@ -23,8 +23,8 @@ SWAP_BALANCE = {"eth": 0, "gast": 0}  # 트레저리 ETH 및 GAST 잔액
 # 리워드, 스왑은 유동적이라 따로 관리 하지 않음. 
 
 # 리저브/트레저리 비율 (RTR)
-RTR_THRESHOLD = 50  # 리밸런싱 트리거 기준 (%)
-RTR_RANGE = 5  # 허용 리밸런싱 범위 (%)
+RTR_THRESHOLD = 0  # 리밸런싱 트리거 기준 (%)
+RTR_RANGE = 0  # 허용 리밸런싱 범위 (%)
 
 # 스왑 
 SWAP_RATIO_THRESHOLD = 5 # 

@@ -26,7 +26,7 @@ def rebalance(option):
         print(f"✅ No rebalancing needed. Current Treasury ETH Ratio: {treasury_ratio:.2f}%")
         return
 
-    print(f"🔹 Initial RTR: {initial_treasury_ratio:.2f}% (Target: <50%)")
+    print(f"🔹 Initial RTR: {initial_treasury_ratio:.2f}% (Target: {config.RTR_THRESHOLD:.2f}%)")
     
     # 리밸런싱 수행
     while treasury_ratio >= RTR_THRESHOLD:
